@@ -1,0 +1,11 @@
+{
+  "name": "pauls-list",
+  "version": "1.0.0",
+  "description": "test external node_module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Esson",
+  "license": "ISC"
+}

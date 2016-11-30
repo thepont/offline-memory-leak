@@ -1,0 +1,17 @@
+{
+  "name": "offline-memory-leak",
+  "version": "1.0.0",
+  "description": "See if we can create a memory leak in serverless offline",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Esson",
+  "license": "ISC",
+  "dependencies":{
+    "pauls-list": "file:./pauls-list"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.4.1"
+  }
+}

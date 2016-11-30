@@ -1,0 +1,15 @@
+# Hello World for AWS Lambda
+service: hello-world # Service Name
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+plugins:
+  - serverless-offline
+
+functions:
+  helloWorld:
+    handler: handler.helloWorldHandler
+    events:
+      - http: GET /
